@@ -1,0 +1,68 @@
+body {
+    font-family: "Courier New", monospace;
+    font-size: 12px;
+    text-align: justify
+}
+
+.C1 {
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    color: red;
+    text-align: center;
+    background-color: yellow
+}
+
+.C2 {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: purple;
+    text-align: center
+}
+
+.C2 p:first-of-type {
+    margin-top: 20px
+}
+
+.C2 p:last-of-type {
+    margin-bottom: 20px
+}
+
+.C3 p {
+    font-family: Arial, sans-serif;
+    font-size: 11px;
+    text-indent: 20px;
+    margin: 25px 0
+}
+
+.C4 {
+    counter-increment: section;/ font-family: Arial, sans-serif;
+    font-size: 15px;
+    color: blue;
+    font-weight: bold
+}
+
+.C4::before {
+    content: counter(section) ", ";
+}
+
+.C5 {
+    font-family: "Times New Roman", serif;
+    font-size: 12px;
+    font-style: italic;
+    margin: 10px 1cm 20px
+}
+
+.C6 {
+    font-size: 13px;
+
+    text-decoration: underline .C7 p {
+        text-indent: 12px;
+        margin: 10px 0 20px 0
+    }
+
+
+    .C8 {
+        list-style-type: disc;
+        color: lightblue;
+        margin: 10px 0 20px 0;
+    }
